@@ -27,7 +27,7 @@ import {
   Video,
   FolderOpen
 } from 'lucide-react';
-import { useAuth } from '../../contexts/AuthContexts';
+import { useAuth } from '../contexts/AuthContexts';
 import { db } from '../../firebase/config';
 import { 
   collection, 
