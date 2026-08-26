@@ -40,7 +40,7 @@ import {
   getDoc
 } from 'firebase/firestore';
 
-const Dashboard = () => {
+export default function Dashboard() {
   const { user, isAdmin } = useAuth();
   const [stats, setStats] = useState({
     topics: 0,
@@ -878,5 +878,3 @@ const Dashboard = () => {
     </div>
   );
 };
-
-export default Dashboard;

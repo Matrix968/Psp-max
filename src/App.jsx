@@ -21,7 +21,7 @@ import Profile from './pages/Profile';
 import MyMessages from './pages/MyMessages';
 
 // Admin Pages
-import Dashboard from "./pages/admin/Dashboard"
+import Dashboard from './pages/Dashboard';
 import AddTopic from './pages/admin/AddTopic';
 import AddProject from './pages/admin/AddProject';
 import AdminMessages from './pages/admin/AdminMessages';
