@@ -28,7 +28,7 @@ import {
   FolderOpen
 } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContexts';
-import { db } from '../../firebase/config';
+import { db } from '../firebase/config';
 import { 
   collection, 
   getDocs, 
